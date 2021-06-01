@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa');
+
+body, html {
+  height: 100%;
+  background-image: linear-gradient(19deg, #d2f7e0 0%, #d2e0f7 100%);
+}
+
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.canvas-border {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+  background-color: white;
+  height: 580px;
+  width: 760px;
+  border-radius: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+  
+}
+
+.heading-border {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  color: rgb(215, 169, 18);
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.heading-left, .heading-right {
+  align-self: center;
+  color: rgb(215, 169, 18);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+canvas {
+  margin-top: 40px;
+  margin-bottom: -5px;
+  background-color: #E2E5E6;
+  -webkit-box-shadow: inset 9px 12px 9px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 9px 12px 9px -12px rgba(0,0,0,0.75);
+  box-shadow: inset 9px 12px 9px -12px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+
+.dial-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -110px;
+  z-index: 10;
+}
+
+.dial {
+  border-radius: 50%;
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  background: rgb(186,17,17);
+  background: linear-gradient(180deg, rgba(186,17,17,1) 0%, rgba(255,0,0,1) 100%);
+  
+}
+
+.dial-left-foreground,
+.dial-right-foreground {
+  height: 90px;
+  width: 90px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background: rgb(186,17,17);
+  background: linear-gradient(119deg, rgba(186,17,17,1) 0%, rgba(255,0,0,1) 100%);
+}
+
+.dial-left {
+  margin-left: 30px;
+  margin-top: -30px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+.dial-right {
+  margin-right: 30px;
+  margin-top: -30px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+.dial-right:hover,
+.dial-left:hover {
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.5);
+}
+
+.dial-right:active,
+.dial-right:active {
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+.social-icons {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+  color: rgb(215, 169, 18);
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.social-icons a:visited {
+  color: black;
+}
+
+.fa-github-alt,
+.fa-angellist,
+.fa-linkedin {
+  padding: 5px;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+.fa-github-alt:hover,
+.fa-angellist:hover,
+.fa-linkedin:hover {
+  color: rgb(167, 130, 10);
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+.between-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.shake-button {
+  color: rgb(215, 169, 18);
+  text-transform: uppercase;
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  border: 1px solid rgb(215, 169, 18);
+  padding: 10px 20px 10px 20px;
+  margin: -20px;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+.shake-button:hover {
+  color: rgb(167, 130, 10);
+  border-color: rgb(167, 130, 10);
+  padding: 10px 35px 10px 35px;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+
+canvas.shake, 
+.canvas-border.shake,
+.heading-border.shake,
+.dial-container.shake,
+.between-buttons.shake {
+  animation: shake 0.5s linear 1;
+  justify-items: center;
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+footer {
+  text-align: center;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  /* margin-top: 100px; */
+  display: flex;
+  justify-content: center;
+}
