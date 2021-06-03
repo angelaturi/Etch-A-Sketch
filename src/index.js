@@ -24,7 +24,7 @@ context.textAlign = "center";
 
 context.beginPath();
 context.font = "20px sans-serif";
-context.fillText("Welcome to Etch-A-Sketch!", 250, 80);
+context.fillText("Welcome to Web-A-Skeb!", 250, 80);
 context.font = "16px sans-serif";
 context.fillText("Instructions:", 250, 110);
 context.font = "12px sans-serif";
