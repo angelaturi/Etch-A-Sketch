@@ -1,7 +1,7 @@
-# Etch-A-Sketch
+# Web-A-Skeb
 
 ## Background and Overview
-* Etch-A-Sketch emulates the favorite 90's kid drawing toy Etch-A-Sketch by imitating its drawing operations.
+* Web-A-Skeb emulates the favorite 90's kid drawing toy Etch-A-Sketch by imitating its drawing operations.
 * Wireframes: https://wireframe.cc/LSuwx8
 
 ## Functionality and MVPs
